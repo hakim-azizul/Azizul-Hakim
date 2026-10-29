@@ -80,7 +80,7 @@ const Projects = () => {
         {projects.map((project, index) => (
           <article
             key={index}
-            className="group rounded-2xl bg-card p-6 md:p-8 border border-border hover:border-signature-border shadow-sm hover:shadow-md transition-all duration-300 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6"
+            className="group rounded-2xl bg-card p-6 md:p-8 border border-slate-200/80 dark:border-slate-800/80 hover:border-emerald-500/40 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6"
           >
             {/* IMAGE / PLACEHOLDER */}
             <div className="w-full lg:w-[28%] h-40 sm:h-44 rounded-xl bg-muted border border-border flex items-center justify-center text-muted-foreground text-xs font-medium shrink-0 overflow-hidden">

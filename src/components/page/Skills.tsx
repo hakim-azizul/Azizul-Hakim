@@ -58,7 +58,7 @@ const Skills = () => {
         {skillCategories.map((category, index) => (
           <div
             key={index}
-            className={`rounded-2xl p-6 border transition-all duration-300 flex flex-col justify-between shadow-sm hover:shadow-md ${category.cardBg}`}
+            className={`rounded-2xl p-6 border border-slate-200/80 dark:border-slate-800/80 hover:border-emerald-500/40 transition-all duration-300 flex flex-col justify-between shadow-sm hover:shadow-md ${category.cardBg}`}
           >
             <div>
               {/* Category Header */}
