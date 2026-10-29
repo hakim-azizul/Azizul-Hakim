@@ -60,7 +60,7 @@ const Contact = () => {
           {/* CTA BUTTON */}
           <div className="w-full lg:w-auto">
             <a
-              href="mailto:your-email@example.com"
+              href="mailto:hakimsanny898@gmail.com"
               className="group flex items-center justify-between gap-4 px-6 py-4 rounded-xl bg-white/5 border border-white/10 hover:border-signature/40 transition-all duration-300 w-full sm:w-auto"
             >
               <span className="text-xs md:text-sm font-medium text-white/80 group-hover:text-white transition-colors">
