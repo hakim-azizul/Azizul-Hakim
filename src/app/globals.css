@@ -2,7 +2,7 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
-@custom-variant dark (&:is(.dark *));
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme inline {
   --color-background: var(--background);
@@ -165,11 +165,15 @@
   * {
     @apply border-border outline-ring/50;
   }
-  body {
-    @apply bg-[#fbfbfa] text-slate-900;
-  }
   html {
     @apply font-sans scroll-smooth;
+    color-scheme: light;
+  }
+  html.dark {
+    color-scheme: dark;
+  }
+  body {
+    @apply bg-background text-foreground;
   }
 }
 
