@@ -59,7 +59,7 @@ const Hero = () => {
                   Ready To
                 </span>
                 <span className="font-bold text-foreground">
-                  Make Wonder
+                  Build Together
                 </span>
               </div>
             </div>
