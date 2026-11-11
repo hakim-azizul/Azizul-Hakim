@@ -34,20 +34,20 @@ const Hero = () => {
           </div>
 
           {/* MAIN IMAGE CONTAINER */}
-          <div className="relative w-72 sm:w-80 md:w-95 h-90 sm:h-100 flex items-end justify-center">
-            {/* Background Shape 1 */}
-            <div className="absolute top-4 left-2 w-full h-[90%] bg-signature-muted rounded-[45%_55%_60%_40%/50%_50%_50%_50%] -z-20 transform -rotate-6 scale-105" />
+          <div className="relative w-72 sm:w-80 md:w-96 h-72 sm:h-80 md:h-96 flex items-center justify-center">
+            {/* Tech Ring / Outer Border Effect */}
+            <div className="absolute w-full h-full rounded-full border-2 border-dashed border-signature-muted animate-spin-slow opacity-60 -z-10" />
 
-            {/* Background Shape 2 */}
-            <div className="absolute top-8 right-2 w-[85%] h-[85%] bg-signature rounded-[30%_70%_70%_30%/30%_30%_70%_70%] -z-10 transform rotate-12 opacity-80" />
+            {/* Outer Ring with Segments / Tech Style */}
+            <div className="absolute w-[92%] h-[92%] rounded-full border-4 border-signature/30 border-t-signature border-b-signature transform rotate-45 -z-10" />
 
-            {/* Profile Image */}
-            <div className="relative w-full h-full z-10 flex items-end">
+            {/* Main Circular Profile Container */}
+            <div className="relative w-[82%] h-[82%] rounded-full overflow-hidden border-4 border-signature bg-signature-muted/20 shadow-2xl z-10 flex items-center justify-center">
               <Image
                 src={HeroImage}
                 alt="Portrait of Azizul Hakim"
                 priority
-                className="object-contain object-bottom max-h-full drop-shadow-md"
+                className="object-cover object-center w-full h-full scale-105 hover:scale-110 transition-transform duration-500"
               />
             </div>
 
@@ -77,8 +77,7 @@ const Hero = () => {
           {/* Name & Title */}
           <div className="space-y-1">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-foreground uppercase">
-              AZIZUL{" "}
-              <span className="text-signature">HAKIM</span>
+              AZIZUL <span className="text-signature">HAKIM</span>
             </h1>
             <p className="text-lg md:text-xl font-bold text-foreground/80">
               Junior Full-Stack Web Developer
