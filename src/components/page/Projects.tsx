@@ -3,6 +3,15 @@ import { FaGithub } from "react-icons/fa";
 
 const projects = [
   {
+    title: "BookNook",
+    badge: "New",
+    description:
+      "A full-stack digital library management application designed to provide readers and administrators with a seamless experience for browsing, borrowing, and managing books. Built with high performance, intuitive UX, and secure access control in mind.",
+    tags: ["Next.js", "TypeScript", "MongoDB", "Express.js", "BetterAuth", "JWT"],
+    liveLink: "https://book-nook-mocha.vercel.app/",
+    githubLink: "https://github.com/hakim-azizul/BookNook",
+  },
+  {
     title: "BazarDor",
     badge: "Featured",
     description:
@@ -37,15 +46,6 @@ const projects = [
     tags: ["React", "TypeScript", "Vite", "Tailwind"],
     liveLink: "https://dev-stack-sandy.vercel.app/",
     githubLink: "https://github.com/hakim-azizul/DevStack",
-  },
-  {
-    title: "Dorm-Meal-management",
-    badge: "Under Development",
-    description:
-      "A web application to manage dormitory meals and related information. Helps users view menus, track meals and manage daily records.",
-    tags: ["Next", "Node.js", "MongoDB", "Express"],
-    liveLink: "#",
-    githubLink: "https://github.com/hakim-azizul/Dorm-Meal-management",
   },
 ];
 
